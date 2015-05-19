@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.maincontainer {
+  height: 200px;
+  width: 550px;
+  padding: 20px;
+  margin: auto;
+}
+
+section {
+  height: 50px;
+  border-right: 1px solid #00C6D6;
+  border-left: 1px solid #00C6D6;
+  border-bottom: 1px solid #00C6D6;
+  overflow: hidden;
+  transition: all 1.5s ease;
+}
+
+.thisSection {
+  height: 150px;
+}
+
+.text {
+  height: 100px;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 1.5em;
+  background-color: #00C6D6;
+  margin: 0;
+  color: white;
+  padding: 10px;
+}
+
+h2:hover {
+  background-color: #00DAEC;
+}
+
+p {
+  font-size: .8em;
+  margin: 0px;
+}
